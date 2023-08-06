@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(41, 39, 39);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.first-main-container {
+    max-width: 300px;
+    background-color: hsl(216, 12%, 8%);
+    border-radius: 15px;
+    padding: 1rem;
+}
+
+.star-icon {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.star {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: hsl(213, 19%, 18%);
+    margin-top: 20px;
+}
+
+
+.first-main-container h2 {
+    /* border: 1px solid salmon; */
+    width: 80%;
+    margin: auto;
+    color: white;
+    margin-top: 15px;
+    font-size: 1.6em;
+}
+
+.first-main-container .info {
+    /* border: 1px solid salmon; */
+    color: hsl(217, 12%, 63%);
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+.rating-btn {
+    /* border: 1px solid salmon; */
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.rate-btn {
+    border: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(216, 38%, 87%);
+}
+
+.rate-btn:hover {
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.rate-btn:focus {
+    background-color: hsl(220, 2%, 28%);
+}
+
+.submit-btn {
+    display: block;
+    border: none;
+    width: 80%;
+    height: 30px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 30px;
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+}
+
+.submit-btn:hover {
+    /* color: green; */
+    cursor: pointer;
+    font-weight: bold;
+    background-color: hsl(25, 83%, 40%);
+}
+
+.hidden {
+    display: none;
+}
+
+.second-main-container {
+    /* border: 2px solid red; */
+    max-width: 300px;
+    margin: auto;
+    background-color: hsl(216, 12%, 8%);
+    border-radius: 25px;
+    margin-top: 70px;
+    padding: 1rem;
+}
+
+
+.second-main-container img {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    padding-top: 30px;
+}
+
+.rate-me {
+    /* border: 1px solid salmon; */
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    /* text-align: center; */
+    justify-content: center;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 19%, 18%);
+    height: 25px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+
+.second-main-container h2 {
+    /* border: 1px solid salmon; */
+    width: max-content;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+    font-size: 1.8em;
+}
+
+.second-main-container .last-text {
+    width: 80%;
+    /* border: 1px solid lawngreen; */
+    margin: auto;
+    margin-top: 15px;
+    color: hsl(217, 12%, 63%);
+    text-align: center;
+    font-size: 0.91em;
+}

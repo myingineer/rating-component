@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rate Me</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+    <div class="first-main-container">
+
+        <div class="star-icon">
+            <p class="star"><img src="./images/icon-star.svg" alt=""></p>
+        </div>
+
+        <h2>How did we do?</h2>
+
+        <p class="info">
+            Please let us know how we did with your support request.
+            All feedback is appreciated to help us improve our offering!
+        </p>
+
+        <div class="rating-btn">
+
+            <button class="rate-btn btn">1</button>
+                
+            <button class="rate-btn btn">2</button>
+
+            <button class="rate-btn btn">3</button>
+
+            <button class="rate-btn btn">4</button>
+
+            <button class="rate-btn btn">5</button>
+
+        </div>
+
+        <button class="submit-btn" id="submit">SUBMIT</button>
+    </div>
+
+
+    <div class="second-main-container hidden">
+        <img src="./images/illustration-thank-you.svg" alt="">
+
+        <div class="rate-me">
+            <p class="rating-selected">You selected <span id="js-rate-number">5</span> out of 5</p>
+        </div>
+
+        <h2>Thank you!</h2>
+
+        <p class="last-text">
+            We appreciate you taking the time to give a rating. 
+            If you ever need more support, don't hesitate to get in touch!
+        </p>
+
+        <button class="submit-btn" id="rate-again">Rate Again</button>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
